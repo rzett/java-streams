@@ -10,13 +10,13 @@ Overview of stream implementation in Java (incl. some lambda expressions)
 
 Generic sample: ```[ Source ] -> [[Filter]] => [[Sort]] => [[Map]] -> [[[Collect]]]```
 
-####`[Source]`
+#### `[Source]`
 Collections (Lists, Sets, Queue), ints, longs, doubles, arrays, lines of a file
 
-####`[[Intermediate Operations]]`
+#### `[[Intermediate Operations]]`
 anyMatch(), distinct(), filter(), findFirst(), map(), flatmap(), skip(), sort()
      
-####`[[[Terminal Operations]]]` 
+#### `[[[Terminal Operations]]]` 
 forEach() - applies the same function to each element.                                  
 collect() - saves the elements into a collection.
 
