@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<messages id="m-0">
+    <message id="m-01">
+        <to>Tove1</to>
+        <from>Jani1</from>
+        <heading>Reminder1</heading>
+        <body>Don't forget me this weekend!1</body>
+        <size>10</size>
+    </message>
+    <message id="m-02">
+        <to>Tove2</to>
+        <from>Jani2</from>
+        <heading>Reminder2</heading>
+        <body>Don't forget me this weekend!2</body>
+        <size>20</size>
+    </message>
+    <message id="m-03">
+        <to>Tove3</to>
+        <from>Jani3</from>
+        <heading>Reminder3</heading>
+        <body>Don't forget me this weekend!3</body>
+        <size>30</size>
+    </message>
+    <message id="m-04">
+        <to>Tove4</to>
+        <from>Jani4</from>
+        <heading>Reminder4</heading>
+        <body>Don't forget me this weekend!4</body>
+        <size>40</size>
+    </message>
+</messages>
