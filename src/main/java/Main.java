@@ -1,4 +1,5 @@
 import org.w3c.dom.Document;
+import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
@@ -9,17 +10,14 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class Main {
 
-    public Main() throws IOException {
+    public Main() {
     }
 
     /**
@@ -190,5 +188,26 @@ public class Main {
         System.out.println("Root element parent node name: " + doc.getDocumentElement().getParentNode().getNodeName());
 
         NodeList childList = doc.getDocumentElement().getElementsByTagName("message");
+        System.out.println(childList.getLength());
+
+        ArrayList<Node> arrayListOfNodes = getArrayListOfNodeList(childList);
+        System.out.println(arrayListOfNodes.size());
+
+        // print message node attributes
+        arrayListOfNodes.stream()
+                .forEach(x -> System.out.println(x.getAttributes().item(0)));
+
+    }
+
+    private static ArrayList<Node> getArrayListOfNodeList(NodeList nodeList) {
+        ArrayList<Node> arrayList = new ArrayList<>();
+
+        int i = nodeList.getLength();
+        while (i > 0) {
+            arrayList.add(nodeList.item(i-1));
+            i--;
+        }
+
+        return arrayList;
     }
 }
