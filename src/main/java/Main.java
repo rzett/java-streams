@@ -196,7 +196,6 @@ public class Main {
         // print message node attributes
         arrayListOfNodes.stream()
                 .forEach(x -> System.out.println(x.getAttributes().item(0)));
-
     }
 
     private static ArrayList<Node> getArrayListOfNodeList(NodeList nodeList) {
@@ -210,4 +209,6 @@ public class Main {
 
         return arrayList;
     }
+
+
 }
