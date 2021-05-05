@@ -26,3 +26,6 @@ forEach() - applies the same function to each element.
 collect() - saves the elements into a collection.
 
 count(), max(), min(), reduce(), summaryStatistics() - reduce the stream to a single summary element.
+
+## Sources & Links
+- In-depth tutorial with examples: https://stackify.com/streams-guide-java-8/
