@@ -29,3 +29,4 @@ count(), max(), min(), reduce(), summaryStatistics() - reduce the stream to a si
 
 ## Sources & Links
 - In-depth tutorial with examples: https://stackify.com/streams-guide-java-8/
+- Strongly example-driven tutorial: https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
