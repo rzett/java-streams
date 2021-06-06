@@ -31,3 +31,4 @@ count(), max(), min(), reduce(), summaryStatistics() - reduce the stream to a si
 - In-depth tutorial with examples: https://stackify.com/streams-guide-java-8/
 - Strongly example-driven tutorial: https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 - Collection of information how streams work on bytecode level: https://stackoverflow.com/questions/32166193/understanding-java-8-streams-at-the-bytecode-level
+- Great General Overview of Streams API: https://javabeginners.de/Arrays_und_Verwandtes/Streams.php
